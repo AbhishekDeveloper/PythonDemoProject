@@ -24,4 +24,93 @@ body {
     line-height:15;
     padding:15px 10px
   }
+  .btn-primary {
+    font-family: Raleway-SemiBold;
+    font-size: 13px;
+    color: rgba(58, 133, 191, 0.75);
+    letter-spacing: 1px;
+    line-height: 15px;
+    border: 2px solid rgba(58, 133, 191, 0.75);
+    border-radius: 40px!important;
+    background: transparent;
+    transition: all 0.3s ease 0s;
+  }
+  .cHeader>h4{
+   display: inline;
+   font-weight: 700
+  }
+  .cHeader>label{
+    display: block;
+   }
+   .cHeader>button{
+    float: right;
+   }
+   .paddingTB{
+    padding: 45 0 45px 0;
+   }
+   .text-col{
+    color: #6bc5e1!important;
+    font-size: 16px;
+   }   
+  /******** card ****************/
+
+  .well {
+    font-size: 16px;
+    color: #6791ca;
+    font-weight: 800;
+}
+.thumbnail .caption {
+    padding: 9px;
+    color: #333;
+    padding-left: 10px;
+    padding-right: 0px;
+}
+.icon-style
+{
+    margin-right:15px;
+    font-size:18px;
+    margin-top:20px;
+}
+p
+{
+    margin:3px;
+}
+.well-add-card
+{
+    margin-bottom:10px;
+}
+.btn-add-card
+{
+    margin-top:20px;
+}
+.thumbnail {
+    display: block;
+    padding: 10px;
+    height: 180px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #d9d9d94d;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+    padding-left: 0px;
+    padding-right: 0px;
+    overflow: hidden;
+}
+.btn
+{
+    border-radius:0px;
+}
+.btn-update
+{
+    margin-left:15px;
+}
+.tickIcon::before{
+    position: absolute;top:45%;left:0;content:"\f00c";z-index: 1;width:30px;height:30px;background-color:#6791ca;border-radius:100%;
+    font: normal normal normal 14px/1 FontAwesome;text-align: center;line-height: 28px;color:#fff;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
 
