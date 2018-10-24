@@ -1,0 +1,27 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #555555; }
+  
+  /*********** header *************/
+  .iHeader{
+    background-color:#5ac0de;
+    color:#ffffff;
+    line-height:40px;
+    padding:15px 10px
+  }
+  .gotoSection{
+    line-height: 48px;
+    padding:20px 0
+  }
+  .gTopic{
+      background: #f7f7f7;
+  }
+  /******** footer ***************/
+  .iFooter{
+    background-color:#5ac0de;
+    color:#ffffff;
+    line-height:15;
+    padding:15px 10px
+  }
+
