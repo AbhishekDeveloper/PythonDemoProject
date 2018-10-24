@@ -1,0 +1,8 @@
+{
+    "name": "demoApp",
+    "description": "This is django application", 
+    "repository": "", 
+    "keywords": ["web", "django"], "env": {"DEBUG_COLLECTSTATIC": "1"}, 
+    "addons": ["heroku-postgresql:hobby-dev", "sendgrid:starter"], 
+    "scripts": {"postdeploy": "./postdeploy.sh"}
+}
